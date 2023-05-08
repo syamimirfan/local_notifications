@@ -24,6 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () {
           NotificationService()
               .showNotification(title: 'Syamim is a broken man', body: 'Everyone hates him');
+              print("asdasdasdasd");
         },
       )),
     );
